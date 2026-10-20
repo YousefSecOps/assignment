@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+
+        <form id="myForm">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <p class="error" id="nameError"></p>
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <p class="error" id="emailError"></p>
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <p class="error" id="passwordError"></p>
+
+            <label for="confirmPassword">Confirm password</label>
+            <input type="password" id="confirmPassword">
+            <p class="error" id="confirmError"></p>
+
+            <label for="age">Age</label>
+            <input type="number" id="age">
+            <p class="error" id="ageError"></p>
+
+            <button type="submit">Register</button>
+            <p id="message"></p>
+        </form>
+
+        <a href="data.html">Go to Data Table</a>
+    </div>
+
+    <script src="js/App.js"></script>
+</body>
+</html>
